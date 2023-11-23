@@ -1,0 +1,44 @@
+/* Add your own styles or use a CSS preprocessor like SCSS for more advanced styling */
+
+.create-post-container {
+    max-width: 400px;
+    margin: 100px auto 20px; /* Updated margin-top to 100px */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .create-form-label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .create-form-input,
+  .create-form-textarea,
+  .create-form-file-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create-form-textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .create-submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-submit-button:hover {
+    background-color: #45a049;
+  }
+  
